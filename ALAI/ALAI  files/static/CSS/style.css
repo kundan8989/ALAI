@@ -1,0 +1,463 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100vw;
+    overflow-x: hidden;
+    font-family: var(--font2);
+    /* background-color: var(--bg-color); */
+    /* background-image: url("static\Images\poster.jpg"); */
+    color: var(--text-color);
+}
+
+
+/* -------------> Nav Section Starts Here <------------------- */
+
+.navbar {
+    font-family: var(--font1);
+    font-size: 1.3rem;
+    height: 15vh;
+    padding: 0 4rem;
+    /* color: var(--text-color); */
+    /* border-bottom: 1px solid var(--text-color); */
+    /* border-radius: 1vw; */
+    box-shadow: 1px 1px 3px 1px #0f0f0f;
+
+
+
+}
+
+.logo {
+    width: 5rem;
+    height: 5rem;
+}
+
+.logo img {
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+
+}
+
+.nav-right ul {
+    margin: 0 3rem;
+
+}
+
+.nav-right ul li {
+    list-style: none;
+    padding: 1rem 1rem;
+
+
+}
+
+.nav-right ul li a:hover {
+    text-decoration: underline var(--text-hover);
+}
+
+.nav-right ul li a {
+    text-decoration: none black;
+    transition: all .3s ease-in-out;
+    /* color: var(--text-color); */
+
+}
+
+/* -------------> Nav Section End Here <------------------- */
+
+
+
+
+
+
+/* -------------> Details Section Starts Here <------------------- */
+
+.vision {
+    /* margin-top: 3rem; */
+    padding: 3rem;
+    text-align: justify;
+    /* background-color: var(--prime-color); */
+    /* background-image: url(/static/Images/bg-poster.jpeg); */
+    /* background-size: cover; */
+    /* height: 100vh; */
+    /* color: var(--prime-color); */
+
+}
+
+/* -------------> Details Section Ends Here <------------------- */
+
+
+
+
+
+/* -------------> Content Section Starts Here <------------------- */
+
+.contentsection {
+    /* background-color: antiquewhite; */
+    /* width: 70vw; */
+    /* margin: 4rem 2rem; */
+    /* padding: 1rem; */
+}
+
+.content-box {
+    /* background-color: aqua;  */
+    margin: 3rem auto;
+    padding: 1rem 0;
+    width: 60vw;
+
+}
+
+.homeTools {
+    margin: 0 1rem;
+    border-radius: .2rem;
+    padding: 2rem;
+    text-align: justify;
+    flex-direction: row-reverse;
+    margin: 3rem 0;
+    background-color: var(--prime-color);
+
+}
+
+
+.descrription {
+    width: 60%;
+    padding: 1rem;
+    text-align: justify;
+}
+
+
+.image {
+    width: 40%;
+    /* height: 20rem; */
+    /* box-sizing: content-box; */
+    /* margin: 1rem 0; */
+
+}
+
+.image img {
+    width: 100%;
+    height: 100%;
+    box-sizing: border-box;  
+    border-radius: .5rem;
+
+}
+
+/* -------------> Content Section End Here <------------------- */
+
+
+
+
+
+/* -------------> Footer Section Starts Here <------------------- */
+
+footer {
+    /* background-color: var(--prime-color); */
+    width: 100vw;
+    height: 10rem;
+    padding: 2rem;
+    /* border-top: 1px solid var(--text-color); */
+    box-shadow: 0 0 3px 1px #0f0f0f;
+
+}
+
+/* -------------> Footer Section End Here <------------------- */
+
+
+
+/* About US Page CSS */
+
+.about {
+    width: 60vw;
+    margin: 3rem auto;
+}
+
+.about div {
+    margin: 4rem 0;
+    text-align: justify;
+
+}
+
+
+
+/* Contact Form CSS */
+
+#contact {
+    /* background-color: var(--secondary-color); */
+    padding: 2rem;
+    margin: 3rem;
+    scroll-behavior: smooth;
+
+}
+
+#contact form {
+    width: 60vw;
+    margin: 3rem auto;
+    margin: 3rem auto;
+
+    /* border: 1px solid #000; */
+    /* border-radius: .3rem; */
+    padding: 2rem;
+}
+
+#contact form .heading {
+    margin: 1rem 0;
+}
+
+#contact form .form-data {
+    margin: 2rem 0;
+}
+
+#contact form #emailHelp {
+    font-size: .8rem;
+}
+
+#contact form .form-control {
+    padding: .3rem;
+    width: 100%;
+}
+
+#contact form .form-label {
+    margin: .3rem 0;
+}
+
+#contact form .btn-primary {
+    transition: all .5s ease-in-out;
+    padding: .5rem 3rem;
+    font-size: 1.2rem;
+    border-radius: .3rem;
+}
+
+#contact form .btn-primary:hover {
+    background-color: var(--prime-color);
+    color: var(--text-color);
+
+}
+
+#contact form input {
+    border-radius: .4rem;
+
+}
+
+#contact form textarea {
+    width: 100%;
+    border-radius: .4rem;
+
+}
+
+
+
+
+
+
+/* Main Tools Page Starts Here */
+
+.web-description-pic {
+    margin: 1rem 0;
+    width: 100vw;
+    height: 100vh;
+}
+
+.web-description-pic img {
+    width: 100%;
+    height: 100%;
+    box-sizing: border-box;
+
+}
+
+
+
+
+.tools-container {
+    /* border-top: 1px solid var(--text-color); */
+    /* box-shadow: 1px 1px 3px 1px #0f0f0f; */
+
+    padding: 2rem;
+}
+
+.container-heading {
+    padding: 2rem 0;
+}
+
+.tool-box {
+    width: 25rem;
+    margin: 1rem 1rem;
+    padding: 1rem;
+    height: 20vh;
+    text-align: center;
+    border-radius: 1rem;
+    flex-wrap: wrap;
+    box-shadow: 1px 1px 3px 1px #0f0f0f;
+
+
+}
+
+/* 
+.tool-box1{
+    background: #0F2027;  /* fallback for old browsers */
+/* background: -webkit-linear-gradient(to right, #2C5364, #203A43, #0F2027);  Chrome 10-25, Safari 5.1-6 */
+/* background: linear-gradient(to right, #2C5364, #203A43, #0F2027); W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+/* } */
+
+/* .tool-box2{ */
+/* background: #833ab4;  fallback for old browsers */
+/* background: -webkit-linear-gradient(to right, #fcb045, #fd1d1d, #833ab4);  Chrome 10-25, Safari 5.1-6 */
+/* background: linear-gradient(to right, #fcb045, #fd1d1d, #833ab4); W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+/* } */
+
+/* .tool-box3{
+    background: #6441A5;  /* fallback for old browsers */
+/* background: -webkit-linear-gradient(to right, #2a0845, #6441A5);   */
+/* Chrome 10-25, Safari 5.1-6 */
+/* background: linear-gradient(to right, #2a0845, #6441A5); 
+W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+/* } */
+
+/* .tool-box4{ */
+/* background: #283c86;   */
+/* fallback for old browsers */
+/* background: -webkit-linear-gradient(to right, #45a247, #283c86);  */
+/* Chrome 10-25, Safari 5.1-6 */
+/* background: linear-gradient(to right, #45a247, #283c86);  */
+/* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+/* } */
+
+
+
+/* Main Tools Page Ends Here */
+
+
+
+
+
+
+/* Tools Section Starts Here */
+
+.tools-right {
+    width: 70vw;
+    /* height: 20rem; */
+    margin-right: 1rem;
+    align-items: center;
+}
+
+.tools-left {
+    width: 20vw;
+
+}
+
+.tools {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row-reverse;
+
+}
+
+.tool {
+    margin: 3rem 0;
+    border: 1px solid var(--prime-color);
+    font-family: var(--font1);
+    padding: 1rem;
+    border-radius: 1rem;
+    text-align: center;
+    /* box-shadow: 1px 1px 3px 1px #0f0f0f; */
+    /* box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px; */
+    /* box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px; */
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 3px 0px, rgba(0, 0, 0, 0.06) 0px 1px 2px 0px;
+    /* box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px; */
+
+}
+
+
+.tool h1 {
+    margin-bottom: 1rem;
+}
+
+/* 
+.tool1{
+    background: #0F2027;  /* fallback for old browsers */
+/* background: -webkit-linear-gradient(to right, #2C5364, #203A43, #0F2027);   */
+/* Chrome 10-25, Safari 5.1-6 */
+/* background: linear-gradient(to right, #2C5364, #203A43, #0F2027);  */
+/* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+/* } */
+
+/* .tool2{ */
+/* background: #833ab4;   */
+/* fallback for old browsers */
+/* background: -webkit-linear-gradient(to right, #fcb045, #fd1d1d, #833ab4);   */
+/* Chrome 10-25, Safari 5.1-6 */
+/* background: linear-gradient(to right, #fcb045, #fd1d1d, #833ab4);  */
+/* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+/* } */
+
+/* .tool3{ */
+/* background: #6441A5;  */
+/* fallback for old browsers */
+/* background: -webkit-linear-gradient(to right, #2a0845, #6441A5);   */
+/* Chrome 10-25, Safari 5.1-6 */
+/* background: linear-gradient(to right, #2a0845, #6441A5); */
+/* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+/* } */
+
+/* .tool4{
+background: #283c86;  
+background: -webkit-linear-gradient(to right, #45a247, #283c86); 
+background: linear-gradient(to right, #45a247, #283c86); 
+
+}  */
+
+.input-area {
+    width: 40%;
+    margin-left: 1rem;
+
+}
+
+.output-area {
+    width: 500px;
+    height: 500px;
+    padding: 1rem;
+    border-radius: .3rem;
+    /* border: 1px solid var(--text-color); */
+
+}
+
+.output-area img {
+    width: 500px;
+    height: 500px;
+}
+
+.tool textarea,
+input[text] {
+    width: 100%;
+    height: 8rem;
+    font-size: 1.5rem;
+    padding: 1rem;
+    background-color: var(--prime-color);
+    color: var(--text-color);
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 3px 0px, rgba(0, 0, 0, 0.06) 0px 1px 2px 0px;
+    /* box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px; */
+    border-radius: .3rem;
+}
+
+.tool2 .tool2-inp {
+    width: 100%;
+}
+
+.tool4 .tool4-inp input {
+    width: 100%;
+    height: 10rem;
+    /* background-color: var(--text-color); */
+    padding: 1rem;
+    border-radius: .3rem;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 3px 0px, rgba(0, 0, 0, 0.06) 0px 1px 2px 0px;
+    /* box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px; */
+
+
+}

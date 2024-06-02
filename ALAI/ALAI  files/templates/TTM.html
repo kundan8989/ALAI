@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>tools</title>
+    <link rel="stylesheet" href="static/CSS/style.css">
+    <link rel="stylesheet" href="static/CSS/utils.css">
+</head>
+<body>
+
+    <nav class="navbar flex">
+        <div class="logo">
+        <img src="static/Images/final_logo.jpg" alt="">
+        </div>
+        <div class="nav-right flex">
+            <ul class="flex">
+                <li class="hcolor"><a href="/" class="hcolor">Home</a></li>
+
+                <li><a href="about" class="hcolor">About</a></li>
+                <li><a href="tools_page" class="hcolor">Tools</a></li>
+                <li><a href="contact" class="hcolor">Contact</a></li>
+            </ul>
+        </div>
+        
+    </nav>
+
+    <section class="tools">
+        <div class="tools-right">
+            <!-- Tool 1 -->
+        <div class="tool tool2 flex" style="background: none;">
+
+            
+            <div class="input-area">
+                <div>
+                    <h1 class="hcolor">ttm</h1>
+                </div>
+
+                <form method="POST">
+                    <div>
+                        <label for="ttm-text"></label>
+                        <textarea name="ttm" id="ttm-text" cols="" rows="5"
+                            placeholder="Enter text"></textarea>
+                    </div>
+                    <div><input type="submit" class="tool-btn"></div>
+                   </form>
+              </div>
+            
+
+            <div class="output-area">
+                <h1 class="hcolor"></h1>
+                <p>{{ data }}</p>
+            </div>
+           
+        </div>
+            
+        </div>
+    </div>
+    
+
+
+    <div class="tools-left">
+    <!-- Tool 2 -->
+
+    <div class="tool tool1">
+        <h1 class="hcolor">Image to text</h1>
+
+        <div><a class="tool-btn" href="textTOimage">Use Tool</a></div>
+        
+    </div>
+
+
+    <!-- Tool 3 -->
+
+    <div class="tool tool3">
+        <h1 class="hcolor">Text Summerization</h1>
+
+        <div><a class="tool-btn" href="textSummarization">Use Tool</a></div>
+        
+    </div>
+
+
+    <!-- Tool 4 -->
+
+    <div class="tool tool4">
+        <h1 class="hcolor">Image to image</h1>
+
+        <div><a class="tool-btn" href="imgTOimg">Use Tool</a></div>
+        
+    </div>
+
+    </div>
+
+
+    </section>
+    
+
+    <footer class="m-auto">
+        <h2 class="hcolor">AL AI</h2>
+        <p class="scolor">All rights resevered by AL AI, 2024</p>
+    </footer>
+</body>
+</html>
