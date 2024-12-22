@@ -49,7 +49,6 @@ Technical Requirements
 - Flask 2.0+
 
 
- Special thanks to  Suraj cahndra paladiya ,who is the frontend developer of this project
 
 Contact and Support
 
