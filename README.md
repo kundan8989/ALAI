@@ -5,49 +5,21 @@ This platform hosts machine learning models trained by me. You can try them dire
 Provide a centralized hub for various AI tasks.
 
 
-you can try it on below link
+you can try it on 
 https://kundan8989.github.io/ALAI/
+
+
 <br>
-Now, lets how you can Deploy it 
+This platform is a centralized space where I showcase and deploy machine learning models I have trained. Each model solves a real-world task — from NLP to prediction problems.
 
-step 1:- Download the ALAI Folder 
+I built this as a complete pipeline — data, modeling, deployment — to show my practical skills and help users test AI with ease.
 
-step 2:- open this folder in the VSCode Editor 
 
-step 3:- Download all the required  library which is given the the requirements.txt file 
-
-Step 4:- after Downloading the Requiremnts run the main Python File 
+<br>
 
 
 
 
-
-
-Deployment Instructions
-
-Environment Setup
-
-1. Install Python 3.8+
-2. Install dependencies with pip install -r requirements.txt
-
-
-Running the Application
-
-1. Run python (link unavailable) to start the backend
-3. Access the application at http://localhost:8000
-
-Troubleshooting
-
-
-- Error: "Module not found"
-    - Solution: Run pip install -r requirements.txt again
-- Error: "Database connection failed"
-    - Solution: Check database credentials and connection settings
-
-Technical Requirements
-
-- Python 3.8+
-- Flask 2.0+
 
 
 
