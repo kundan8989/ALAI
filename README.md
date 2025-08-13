@@ -3,8 +3,10 @@
 <br>
 This platform hosts machine learning models trained by me. You can try them directly through this web interface..
 Provide a centralized hub for various AI tasks.
-Enhance productivity and efficiency in utilizing AI tools.
 
+
+you can try it on below link
+https://kundan8989.github.io/ALAI/
 <br>
 Now, lets how you can Deploy it 
 
